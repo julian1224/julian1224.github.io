@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Portfolio. </title>
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Style/style.css">
+  </head>
+<body>
+
+  <header>
+      <h1 onclick="reference()"> My portfolio. </h1>
+      <h4> a collection of skills in orderly fashion. </h4>
+      <hr>
+    </header>
+
+
+    <div class="infobox">
+      <h2 id="headerstr"> About me: </h2>
+        <p id="para1"> This is me. I am Link. <br>
+          I aspire to work hard writing code in PHP or JS. <br>
+          As a creative person, I spend a lot of time listening to music and drawing art. </p>
+
+          <p id="para2">
+            I like to code in Javascript because it doesn't require an internet connection. <br>
+            The stuff I make are more applications than anything else because of this. <br>
+            It doesn't mean, however, that I can't write PHP. <br><br>
+            I am a big fan of colours and references. <br> You will find plenty of both, in my work.
+        </p>
+      <div class= "frame">
+      <img id="infobox__img"src="Include/headshot1.png" alt="Something belongs here."></img>
+    </div>
+    </div>
+  </div>
+  <div class="selector">
+    <p> Pick an exercise here.</p>
+      <select id="selectme">
+        <option value="home" default> Home </option>
+          <option value="procsim"> Proc Simulator </option>
+            <!-- <option> Excercise number 1 </option>
+              <option> Excercise number 2 </option>
+                <option> Excercise number 3 </option> -->
+          </select>
+          <p> You are on page:</p> <p id="page">home</p>
+          <br>
+            <button onclick="goElsewhere()"> Find out more. </button>
+        </div>
+        <br>
+        <div class="selector" style="height: 100px;">
+          <p> I am interested, let's see more. </p>
+          <button onclick="reDirect()"> See the project </button>
+        </div>
+    <footer>
+          <hr style="margin: 0;">
+          <table>
+           <tr>
+             <th>Mail</th>
+             <th> | </th>
+             <th>Phone</th>
+             <th> | </th>
+             <th>Media</th>
+             <th> | </th>
+           </tr>
+           <tr>
+             <td>7iscool77@gmail.com</td>
+              <td> | </td>
+             <td>+31 6 81470921</td>
+             <td> | </td>
+             <td><a href="https://github.com/julian1224"> GitHub</a> </td>
+             <td> | </td>
+           </tr>
+           <tr>
+             <td>23669@ma-web.nl</td>
+             <td> | </td>
+             <td> </td>
+             <td> | </td>
+             <td> </td>
+             <td> | </td>
+           </tr>
+           <tr>
+             <td> </td>
+             <td> | </td>
+             <td> </td>
+             <td> | </td>
+             <td> </td>
+             <td> | </td>
+           </tr>
+         </table>
+       </footer>
+         <script src="JScript/onclick.js"></script>
+  </body>
+
+</html>
