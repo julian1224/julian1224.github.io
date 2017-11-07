@@ -9,7 +9,7 @@
   switch(indexstr) {
       case "home":
         document.getElementById('headerstr').innerHTML = 'About me:';
-        document.getElementById('page').innerHTML = indexstr;
+        document.getElementById('page').innerHTML = "Home/about";
         document.getElementById('para1').innerHTML =
           "This is me. I am Link. <br>" +
           "I aspire to work hard writing code in PHP or JS. <br>" +
@@ -24,7 +24,7 @@
   break;
       case "procsim":
         document.getElementById('headerstr').innerHTML = 'About Proc Simulator:';
-        document.getElementById('page').innerHTML = '<p id="page">' + indexstr + '</p>';
+        document.getElementById('page').innerHTML = 'Proc Simulator';
         document.getElementById('para1').innerHTML =
           "I started this project for myself. <br>" +
           "This application sets two sets of items with their own properties against each other, <br>" +
@@ -35,7 +35,7 @@
           "It refers to the triggering of effects, whether the occurence is random or not. <br> " +
           "When these effects trigger or 'process', they are said to 'proc'. <br>" +
           "The rate of occurence for random effects is termed the 'Proc Rate'. This is what my program intends to simulate.";
-          
+
         document.getElementById('infobox__img').src = 'Include/shot1.png';
   break;
   default:

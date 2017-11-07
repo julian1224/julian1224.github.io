@@ -25,10 +25,11 @@ height: 120px;
   font-size: 21px;
   position: absolute;
   background-color: #01cdfe;
-  border: 3px solid;
+  border: 3px double;
   height: 600px;
   width: 800px;
   left: calc(50% - 400px);
+  margin-bottom: 15px;
 }
 .infobox p {
   text-align: left;
@@ -38,7 +39,7 @@ height: 120px;
   bottom: 0;
   right: 0;
   position: absolute;
-  border-style: outset;
+  border-style: double;
   height: 240px;
 }
 img {
@@ -49,13 +50,16 @@ img {
 width: 200px;
 height: 200px;
 background-color: #ff71ce;
-border-top-style: outset;
-border-bottom-style: outset;
-border-right-style: outset;
+border-top-style: double;
+border-bottom-style: double;
+border-right-style: double;
 padding: 5px;
+margin-right: 15px;
+margin-bottom: 15px;
 }
 
 footer {
+border-top: 3px double;
 text-align: left;
 height: 120px;
 width: 100%;
@@ -81,10 +85,10 @@ table {
    1px 1px 0 #000;
 }
 
-@media (max-width:1222px) {
+@media (max-width:1254px) {
 
   .infobox {
-  left: calc(210px + 3%);
+  left: calc(200px + 3%);
   }
 }
 
@@ -102,9 +106,12 @@ table {
     visibility: hidden;
   }
   .infobox {
-    height: 346px;
+    height: 344px;
     overflow: hidden;
     font-size: calc(100% - 1px);
+  }
+  #redirect {
+    height: 103px;
   }
   header {
     height: 120px;

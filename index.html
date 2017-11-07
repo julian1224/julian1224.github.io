@@ -36,23 +36,20 @@
   <div class="selector">
     <p> Pick an exercise here.</p>
       <select id="selectme">
-        <option value="home" default> Home </option>
-          <option value="procsim"> Proc Simulator </option>
+        <option value="home" onclick="goElsewhere()" default> Home </option>
+          <option value="procsim" onclick="goElsewhere()"> Proc Simulator </option>
             <!-- <option> Excercise number 1 </option>
               <option> Excercise number 2 </option>
                 <option> Excercise number 3 </option> -->
           </select>
           <p> You are on page:</p> <p id="page">home</p>
-          <br>
-            <button onclick="goElsewhere()"> Find out more. </button>
         </div>
-        <br>
-        <div class="selector" style="height: 100px;">
+
+        <div class="selector" id="redirect">
           <p> I am interested, let's see more. </p>
-          <button onclick="reDirect()"> See the project </button>
+          <button onclick="reDirect()" > See the project </button>
         </div>
     <footer>
-          <hr style="margin: 0;">
           <table>
            <tr>
              <th>Mail</th>
@@ -67,7 +64,7 @@
               <td> | </td>
              <td>+31 6 81470921</td>
              <td> | </td>
-             <td><a href="https://github.com/julian1224"> GitHub</a> </td>
+             <td><a href="https://github.com/julian1224">GitHub</a> </td>
              <td> | </td>
            </tr>
            <tr>
