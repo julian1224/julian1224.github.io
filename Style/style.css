@@ -78,8 +78,14 @@ padding-top: 0px;
 padding: 3px;
 }
 table {
-  margin: 8px;
+  margin: 8px
 }
+
+tr, td, th {
+    padding: 3px;
+    border-style: double;
+}
+
 
 #page {
   color:	#b967ff;
