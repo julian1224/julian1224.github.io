@@ -48,7 +48,7 @@ img {
 }
 .selector {
 width: 200px;
-height: 200px;
+height: 160px;
 background-color: #ff71ce;
 border-top-style: double;
 border-bottom-style: double;
@@ -56,6 +56,10 @@ border-right-style: double;
 padding: 5px;
 margin-right: 15px;
 margin-bottom: 15px;
+}
+
+#redirect {
+  height: 120px;
 }
 
 footer {
@@ -106,7 +110,7 @@ table {
     visibility: hidden;
   }
   .infobox {
-    height: 344px;
+    height: 304px;
     overflow: hidden;
     font-size: calc(100% - 1px);
   }

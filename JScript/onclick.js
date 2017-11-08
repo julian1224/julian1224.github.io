@@ -69,7 +69,7 @@ function reDirect(){
 
   switch(indexstr) {
     case "home":
-    location.href="index.html";
+    location.href="about.html";
     break;
     case "procsim":
   //  location.href="";
