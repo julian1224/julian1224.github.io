@@ -1,0 +1,16 @@
+      <h2 id="headerstr"> About the Wall </h2>
+        <p id="infotext"> I built this wall. <br><br>
+           This project is called the Wall because it is similar to a wall on social media. <br>
+	   You can leave a comment with a name, description and an uploaded image.
+	   The content is not moderated. I have to manually remove entries from the database. <br>
+	   Still, it is functional and some efforts have been made to make uploading safer. <br>
+	   However, there is no login. <br><br>
+
+	   This site also has many references.<br>
+	   Most of them are tied to search inputs. <br>
+	   Be sure to try out the sorting.
+ 
+        </p>
+      <div class= "frame">
+      <img id="infobox__img"src="Include/shot2.png" alt="Something belongs here."></img>
+    </div>

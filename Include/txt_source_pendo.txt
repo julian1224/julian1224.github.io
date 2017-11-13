@@ -1,0 +1,14 @@
+      <h2 id="headerstr"> About myBand </h2>
+        <p id="infotext">  <br><br>
+           This project is called the Wall because it is similar to a wall on social media. <br>
+	   I had to make a page about one of my favourite music groups, therefore I chose Pendulum. <br>
+   	   Using a database, you can leave comments and read the articles that are stored. <br>
+
+    	   Like most of my sites, there are a bunch of references. <br>
+	   For instance, the song in the background changes based on the weekday. <br>
+	   I tried really hard to capture and match the 'Pendulum' style. <br><br>
+	   Personally, I believe I succeeded.
+        </p>
+      <div class= "frame">
+      <img id="infobox__img"src="Include/shot3.png" alt="Something belongs here."></img>
+    </div>

@@ -16,19 +16,20 @@
     </header>
 
 
-    <div class="infobox">
+    <div class="infobox" id="info">
       <h2 id="headerstr"> About me: </h2>
-        <p id="para1"> This is me. I am Link. <br>
-          I aspire to work hard writing code in PHP or JS. <br>
-          As a creative person, I spend a lot of time listening to music and drawing art. </p>
+        <p id="infotext"> This is me. I am Link. <br>
+            I aspire to work hard writing code in PHP or JS. <br>
+            As a creative person, I spend a lot of time listening to music and drawing art. <br><br>
 
-          <p id="para2">
             I like to code in Javascript because it doesn't require an internet connection. <br>
-            The stuff I make are more applications than anything else because of this. <br>
-            It doesn't mean, however, that I can't write PHP. <br><br>
-            I am a big fan of colours and references. <br> You will find plenty of both, in my work.
+            That is why the things I make are more applications than anything else because of this. <br>
+            This doesn't mean, however, that I can't write PHP. <br><br>
+            I am a big fan of colours and references. <br>
+            You will find plenty of both in my work.
         </p>
       <div class= "frame">
+      <textarea id="lmaobox"></textarea>
       <img id="infobox__img"src="Include/headshot1.png" alt="Something belongs here."></img>
     </div>
     </div>
@@ -36,11 +37,11 @@
   <div class="selector">
     <p> Pick an exercise here.</p>
       <select id="selectme">
-        <option value="home" onclick="goElsewhere()" default> Home </option>
-          <option value="procsim" onclick="goElsewhere()"> Proc Simulator </option>
-            <!-- <option> Excercise number 1 </option>
-              <option> Excercise number 2 </option>
-                <option> Excercise number 3 </option> -->
+        <option value="home" onclick="loadDoc()" default> Home </option>
+          <option value="procsim" onclick="loadDoc()"> Proc Simulator </option>
+          <option value="trumped" onclick="loadDoc()"> The Wall </option>
+    <!--    <option> Excercise number 2 </option>
+              <option> Excercise number 3 </option> -->
           </select>
           <p> You are on page:</p> <p id="page">home</p>
         </div>
@@ -64,14 +65,13 @@
            <tr>
              <td>23669@ma-web.nl</td>
              <td> </td>
-             <td> </td>
+             <td><a href="">DeviantArt</a></td>
            </tr>
-           <!-- <tr>
+           <tr>
              <td> </td>
              <td> </td>
-             <td> </td>
-
-           </tr> -->
+             <td><a href="about.html">about page</a></td>
+           </tr>
          </table>
        </footer>
          <script src="JScript/onclick.js"></script>

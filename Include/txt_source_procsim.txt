@@ -1,0 +1,13 @@
+      <h2 id="headerstr"> About Proc Simulator: </h2>
+        <p id="infotext"> I started this project for myself. <br>
+           This application sets two sets of items with their own properties against each other, <br>
+      	   calculating the odds and returning which ones did and did not proc.
+
+    	   Short for 'Programmed Random Occurence', <br>
+     	   'proc' refers to the triggering of effects, whether the occurence is random or not. <br>
+      	   When these effects trigger or 'process', they are said to 'proc'. <br>
+     	   The rate of occurence for random effects is termed the 'Proc Rate'. This is what my program intends to simulate.
+        </p>
+      <div class= "frame">
+      <img id="infobox__img"src="Include/shot1.png" alt="Something belongs here."></img>
+    </div>
