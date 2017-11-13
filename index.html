@@ -29,7 +29,7 @@
             You will find plenty of both in my work.
         </p>
       <div class= "frame">
-      <textarea id="lmaobox"></textarea>
+      <textarea id="lmaobox" chars="0"></textarea>
       <img id="infobox__img"src="Include/headshot1.png" alt="Something belongs here."></img>
     </div>
     </div>
@@ -37,11 +37,11 @@
   <div class="selector">
     <p> Pick an exercise here.</p>
       <select id="selectme">
-        <option value="home" onclick="loadDoc()" default> Home </option>
+      <option default> (none) </option>
+        <option value="home" onclick="loadDoc()"> Home </option>
           <option value="procsim" onclick="loadDoc()"> Proc Simulator </option>
           <option value="trumped" onclick="loadDoc()"> The Wall </option>
             <option value="pendo" onclick="loadDoc()"> MyBand </option>
-      <!--    <option> Excercise number 3 </option> -->
           </select>
           <p> You are on page:</p> <p id="page">home</p>
         </div>

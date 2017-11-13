@@ -1,14 +1,4 @@
 
-
-  function goElsewhere() {
-
-
-    var e = document.getElementById("selectme");
-    var indexstr = e.options[e.selectedIndex].value;
-
-
-}
-
 function loadDoc() {
   var e = document.getElementById("selectme");
   var indexstr = e.options[e.selectedIndex].value;
@@ -19,6 +9,7 @@ function loadDoc() {
      document.getElementById("info").innerHTML = this.responseText;
     }
   };
+
 
   switch(indexstr){
     case "home":
@@ -42,7 +33,6 @@ function loadDoc() {
     case "pendo":
     document.getElementById('page').innerHTML = "My Band";
     document.getElementById('redirect__button').innerHTML = "Let's see myBand";
-
     xhttp.open("GET", "Include/txt_source_pendo.txt", true);
     xhttp.send();
     break;
@@ -61,7 +51,7 @@ function reDirect(){
   var e = document.getElementById("selectme");
   var indexstr = e.options[e.selectedIndex].value;
 
-//  goElsewhere();
+
   console.log(indexstr);
   loadDoc();
   switch(indexstr) {
@@ -69,8 +59,8 @@ function reDirect(){
     location.href="about.html";
     break;
     case "procsim":
-  //  location.href="External/procsim/index.html";
-  alert("WIP: not finished. No redirection for now.")
+    location.href="External/procsim/index.html";
+    //alert("WIP: not finished. No redirection for now.")
     break;
     case "trumped":
     location.href="https://23669.hosts.ma-cloud.nl/p1.1/proj/Wall/wall.php";
@@ -79,5 +69,4 @@ function reDirect(){
     location.href="http://23669.hosts.ma-cloud.nl/p1.1/proj/MyBand/index.php?page=home";
     break;
   }
-
   }
