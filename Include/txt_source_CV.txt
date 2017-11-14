@@ -1,0 +1,42 @@
+
+
+<h2 class="uniform">Personal information: </h2>
+
+<li><b>Name:</b> Julian “Link” DiChiara </li> <li>  <b>Date of birth:</b> 14/02/1999 <br></li>
+<b>Adress:</b> R.J.H. Fortuynstraat 59, Amsterdam
+<li><b>Mobile phone number:</b>
+ +31 6 81470921 </li>
+<b>Mail:</b>
+<ul><li> julian@dichiara.nl </li>
+<li>7iscool77@gmail.com</li>
+<li>23669@ma-web.nl</li></ul>
+<li><b>Date of birth:</b> 14-02-1999 </li>
+<li><b>Place of birth:</b> London</li>
+<li><b>Nationality:</b> Dutch / French</li>
+<li><b>Working experience 2016:</b> Shelf stacker at AH</li>
+<ul>
+<li><b>Education 2011 – 2016:</b> HAVO at Berlage Lyceum</li>
+<li><b>Education 2016 – current:</b> Mediacollege as Media Developer</li>
+</ul>
+<h2 class="uniform">Description:</h2>
+I spent four school years doing HAVO at Berlage Lyceum. <br>
+Afterwards, I went to Mediacollege Amsterdam for a three-year course as a Media Developer.
+<br><br>
+<b>Classes I performed well at:</b> English, Dutch, Biology, Art, Informatics and Chemistry.
+<br><br>
+<b>2016 – 2019</b> App and Media developer (Crebonumber: 25187) at Mediacollege Amsterdam
+<h2 class="uniform">Course description:</h2>
+Three year course developing applications and websites. Trains in both front and back end.
+<h2 class="uniform">Languages:</h2>
+<ul>
+<li>French: Basic </li>
+<li>Dutch: Good </li>
+<li>English: Very good </li>
+</ul>
+<h2 class="uniform">Hobbies: </h2>
+Listening to music, drawing and playing video games.
+<h2 class="uniform">Interests:</h2>
+ Front-end development, drawing, ICT, biology
+<h2 class="uniform"> Skills: </h2>HTML/CSS, ES6, Photoshop (6), creativity and drawing.
+<h2 class="uniform">Other skills:</h2>
+PHP, knowledge about computers, using drawing tablets and the ability to explain things I understand.

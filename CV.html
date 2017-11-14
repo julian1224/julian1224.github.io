@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> My Mind </title>
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="Style/CV.css">
+  <script>
+window.onload = function loadStuff() {
+  var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+       document.getElementById("CVtxt").innerHTML = this.responseText;
+      }
+    };
+    xhttp.open("GET", "Include/txt_source_CV.txt", true);
+    xhttp.send();
+    console.log("it works");
+  }
+  </script>
+</head>
+
+<body>
+  <a href="index.html" style="color: green; float: left; border-style: double; background-color: darkgray"><~ Go back ~~ </a>
+  <h1 class="uniform" id="head"> Curriculum Vitae </h1>
+
+  <p id="CVtxt"></p>
+</body>
+</html>

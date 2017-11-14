@@ -7,7 +7,7 @@
             The stuff I make are more applications than anything else because of this. <br>
             It doesn't mean, however, that I can't write PHP. <br><br>
             I am a big fan of colours and references. <br>
-            You will find plenty of both, in my work.
+            You will find plenty of both in my work.
         </p>
       <div class= "frame">
       <img id="infobox__img"src="Include/headshot1.png" alt="Something belongs here."></img>

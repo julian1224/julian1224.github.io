@@ -56,7 +56,7 @@ function reDirect(){
   loadDoc();
   switch(indexstr) {
     case "home":
-    location.href="about.html";
+    location.href="CV.html";
     break;
     case "procsim":
     location.href="External/procsim/index.html";
