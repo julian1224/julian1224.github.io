@@ -60,13 +60,19 @@ function reDirect(){
     break;
     case "procsim":
     alert("WIP: not finished. Don't get your hopes up.");
-    location.href="https://23669.hosts.ma-cloud.nl/TheFlashbulb/procsim/";
+    window.open(
+    'https://23669.hosts.ma-cloud.nl/TheFlashbulb/procsim/', '_blank' // <- This is what makes it open in a new window.
+    );
     break;
     case "trumped":
-    location.href="https://23669.hosts.ma-cloud.nl/p1.1/proj/Wall/wall.php";
+    window.open(
+    'https://23669.hosts.ma-cloud.nl/p1.1/proj/Wall/wall.php', '_blank' // <- This is what makes it open in a new window.
+    );
     break;
     case "pendo":
-    location.href="http://23669.hosts.ma-cloud.nl/p1.1/proj/MyBand/index.php?page=home";
+    window.open(
+    'http://23669.hosts.ma-cloud.nl/p1.1/proj/MyBand/index.php?page=home', '_blank' // <- This is what makes it open in a new window.
+    );
     break;
   }
   }
