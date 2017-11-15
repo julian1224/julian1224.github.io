@@ -59,8 +59,8 @@ function reDirect(){
     location.href="CV.html";
     break;
     case "procsim":
-    location.href="External/procsim/index.html";
-    //alert("WIP: not finished. No redirection for now.")
+    alert("WIP: not finished. Don't get your hopes up.");
+    location.href="https://23669.hosts.ma-cloud.nl/TheFlashbulb/procsim/";
     break;
     case "trumped":
     location.href="https://23669.hosts.ma-cloud.nl/p1.1/proj/Wall/wall.php";
