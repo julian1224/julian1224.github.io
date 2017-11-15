@@ -97,12 +97,14 @@ border-color: #b967ff;
 
 footer {
 border-top: 3px double;
+border-color: tomato;
+text-decoration-color: purple;
 text-align: left;
 height: 120px;
 width: 100%;
 position: fixed;
 bottom:0;
-color: tomato;
+color: black;
 background-color: #05ffa1;
 padding-top: 0px;
 padding: 3px;
@@ -114,8 +116,17 @@ table {
 tr, td, th {
     padding: 3px;
     border-style: double;
+    border-color: tomato;
 }
-
+a:link {
+  color: magenta;
+}
+a:visited {
+  color: gray;
+}
+a:hover {
+  color: purple;
+}
 
 #page {
   color:	#b967ff;
