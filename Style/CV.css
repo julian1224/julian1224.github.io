@@ -1,10 +1,9 @@
 html {
   float: left;
-  background-color:  #e6fff5;
+  background-color:  lightcyan;
   text-align: left;
 }
 .uniform {
-
   font-style: italic;
   font-weight: bold;
   color: green;
@@ -12,7 +11,6 @@ html {
 #head {
     clear: both;
     font-size: 48px;
-    text-align: center;
     font-style: normal;
 
 }
