@@ -7,6 +7,8 @@
      	   'proc' refers to the triggering of effects, whether the occurence is random or not. <br>
       	   When these effects trigger or 'process', they are said to 'proc'. <br>
      	   The rate of occurence for random effects is termed the 'Proc Rate'. This is what my program intends to simulate.
+         <br><br>
+         <a target="_blank" href="https://github.com/julian1224/Proc-Sim">On GitHub.</a>
         </p>
       <div class= "frame">
       <img id="infobox__img"src="Include/shot1.png" alt="Something belongs here."></img>

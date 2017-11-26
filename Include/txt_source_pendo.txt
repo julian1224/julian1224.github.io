@@ -7,7 +7,8 @@
     	   Like most of my sites, there are a bunch of references. <br>
 	   For instance, the song in the background changes based on the weekday. <br>
 	   I tried really hard to capture and match the 'Pendulum' style. <br><br>
-	   Personally, I believe I succeeded.
+	   Personally, I believe I succeeded. <br><br>
+     <a target="_blank" href="https://github.com/julian1224/Myband">On GitHub.</a>
         </p>
       <div class= "frame">
       <img id="infobox__img"src="Include/shot3.png" alt="Something belongs here."></img>
