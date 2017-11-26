@@ -8,7 +8,9 @@
 	   For instance, the song in the background changes based on the weekday. <br>
 	   I tried really hard to capture and match the 'Pendulum' style. <br><br>
 	   Personally, I believe I succeeded. <br><br>
-     <a target="_blank" href="https://github.com/julian1224/Myband">On GitHub.</a>
+     <a target="_blank" href="https://github.com/julian1224/Myband">On GitHub.</a><br><br>
+     <a target="_blank" href="Include/bandsnap.png">Snapshot 1</a><br>
+     <a target="_blank" href="Include/bandsnap2.png">Snapshot 2</a><br>
         </p>
       <div class= "frame">
       <img id="infobox__img"src="Include/shot3.png" alt="Something belongs here."></img>
