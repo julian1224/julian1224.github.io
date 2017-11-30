@@ -1,4 +1,6 @@
-
+p:hover {
+cursor: crosshair;
+}
 html {
   font-family: 'Comfortaa', cursive;
   text-align: center;
