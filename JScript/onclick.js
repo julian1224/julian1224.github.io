@@ -1,3 +1,7 @@
+function resetValue() {
+  var e = document.getElementById("selectme");
+  e.selectedIndex = 0;
+}
 
 function loadDoc() {
   var e = document.getElementById("selectme");
