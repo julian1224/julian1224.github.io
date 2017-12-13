@@ -43,7 +43,10 @@ function loadDoc() {
     xhttp.send();
     break;
     default:
-    document.getElementById('redirect__button').innerHTML = "Let's see... Nothing?";
+    document.getElementById('page').innerHTML = "Home";
+    document.getElementById('redirect__button').innerHTML = "Let's see more about me.";
+    xhttp.open("GET", "Include/txt_source_home.txt", true);
+    xhttp.send();
     console.log("Error. Variable unknown.");
     break;
   }
