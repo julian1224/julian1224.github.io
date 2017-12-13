@@ -1,7 +1,7 @@
       <h2 id="headerstr"> About Proc Simulator: </h2>
         <p id="infotext"> I started this project for myself. <br>
            This application sets two sets of items with their own properties against each other, <br>
-      	   calculating the odds and returning which ones did and did not proc.
+      	   calculating the odds and returning which ones did and did not proc. <br><br>
 
     	   Short for 'Programmed Random Occurence', <br>
      	   'proc' refers to the triggering of effects, whether the occurence is random or not. <br>

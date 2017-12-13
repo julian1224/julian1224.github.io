@@ -36,6 +36,12 @@ function loadDoc() {
     xhttp.open("GET", "Include/txt_source_pendo.txt", true);
     xhttp.send();
     break;
+    case "MUSE":
+    document.getElementById('page').innerHTML = "MuseMe";
+    document.getElementById('redirect__button').innerHTML = "Let's see MuseMe";
+    xhttp.open("GET", "Include/txt_source_MUSE.txt", true);
+    xhttp.send();
+    break;
     default:
     document.getElementById('redirect__button').innerHTML = "Let's see... Nothing?";
     console.log("Error. Variable unknown.");
@@ -72,6 +78,12 @@ function reDirect(){
     case "pendo":
     window.open(
     'http://23669.hosts.ma-cloud.nl/p1.1/proj/MyBand/index.php?page=home', '_blank' // <- This is what makes it open in a new window.
+    );
+    break;
+    case "MUSE":
+    alert("WIP: unfinished. There is honestly not much to see.");
+    window.open(
+    'http://23669.hosts.ma-cloud.nl/TheFlashbulb/museMe/', '_blank' // <- This is what makes it open in a new window.
     );
     break;
   }

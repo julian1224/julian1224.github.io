@@ -1,0 +1,16 @@
+<h2 id="headerstr"> About MuseMe </h2>
+  <p id="infotext"> This is a school project. <br>
+     This webapp is meant to be a music list, <br>
+     sorting music in a massive table that can be sorted. <br><br>
+     The 'innovation' in this project is that the table contains stuff like <br>
+     title, artist(s), album, year of release and mood. <br>
+     Mood? Yes, mood. MuseMe helps you find music you <i>feel</i> like listening to.<br>
+     The main reason I am making this is because it is something I would use. <br>
+     WIP.
+   <br><br>
+   <a target="_blank" href="https://github.com/julian1224/MuseMe">On GitHub.</a> <br><br>
+   <a target="_blank" href="Include/musesnap.png">Snapshot</a><br>
+  </p>
+<div class= "frame">
+<img id="infobox__img"src="Include/shot4.png" alt="Something belongs here."></img>
+</div>
