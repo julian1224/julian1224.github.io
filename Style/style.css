@@ -56,8 +56,8 @@ z-index: 3;
 transform: rotate(45deg);
 }
 .frame {
-  bottom: 0;
-  right: 0;
+  bottom: -3px;
+  right: -3px;
   position: absolute;
   border-style: double;
   border-radius: 0 0 15px 0;
