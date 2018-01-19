@@ -37,7 +37,7 @@
   </div>
   <div class="selector">
     <p> Pick an exercise here.</p>
-      <select class="selectme">
+      <select id="selectme">
         <option value="home" onclick="loadDoc()" default> Home </option>
           <option value="procsim" onclick="loadDoc()"> Proc Simulator </option>
             <option value="trumped" onclick="loadDoc()"> The Wall </option>
@@ -47,9 +47,9 @@
           <p> You are on page:</p> <p id="page">home</p>
         </div>
 
-        <div class="selector" class="redirect">
+        <div class="selector" id="redirect">
           <p> I am interested, let's see more. </p>
-          <button onclick="reDirect()" class="redirect__button"> See the project </button>
+          <button onclick="reDirect()" id="redirect__button"> See the project </button>
         </div>
     <footer>
           <table>

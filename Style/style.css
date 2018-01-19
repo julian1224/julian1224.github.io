@@ -81,19 +81,19 @@ margin-bottom: 15px;
   border-radius: 0 15px 0 0;
 }
 
-.details {
+#details {
   float: left;
   width: 80%;
   left: 10%;
   height: 80%;
 }
 
-.redirect {
+#redirect {
   height: 120px;
     border-radius: 0 0 15px 0;
 }
 
-.redirect__button, .selectme {
+#redirect__button, #selectme {
 border: 4px double;
 border-color: #b967ff;
 }
