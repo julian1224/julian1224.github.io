@@ -14,5 +14,5 @@
      <a target="_blank" href="Include/wallsnap2.png">Snapshot 2</a><br>
         </p>
       <div class= "frame">
-      <img id="infobox__img"src="Include/shot2.png" alt="Something belongs here."></img>
+      <img id="infobox__img"src="Include/shot2.png" alt="SThis is a preview"></img>
     </div>
