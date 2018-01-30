@@ -88,7 +88,7 @@ function reDirect(){
     );
     break;
     case "MUSE":
-    alert("WIP: unfinished. There is honestly not much to see.");
+    alert("WIP: unfinished. Click the table headers to sort.");
     window.open(
     'http://23669.hosts.ma-cloud.nl/TheFlashbulb/museMe/', '_blank' // <- This is what makes it open in a new window.
     );
