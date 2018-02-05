@@ -1,0 +1,4 @@
+User-agent: *
+DisallowL /Include/
+Disallow: /External/
+Disallow: /JScript/
