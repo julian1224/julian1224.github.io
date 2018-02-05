@@ -1,8 +1,9 @@
 
 
-var click = document.getElementById("selectme");
-click.addEventListener("click", loadDoc);
-
+var e = document.getElementById("selectme");
+e.addEventListener("click", loadDoc);
+var button = document.getElementById("redirect__button");
+button.addEventListener("click", reDirect);
 
 function resetValue() {
   var e = document.getElementById("selectme");
@@ -52,6 +53,12 @@ function loadDoc() {
     xhttp.open("GET", "Include/txt_source_MUSE.txt", true);
     xhttp.send();
     break;
+    case "slider":
+    document.getElementById('page').innerHTML = "slider";
+    document.getElementById('redirect__button').innerHTML = "Let's see that animation";
+    xhttp.open("GET", "Include/txt_source_slider.txt", true);
+    xhttp.send();
+    break;
     default:
     document.getElementById('page').innerHTML = "Home";
     document.getElementById('redirect__button').innerHTML = "Let's see more about me.";
@@ -97,6 +104,11 @@ function reDirect(){
     alert("WIP: unfinished. Click the table headers to sort.");
     window.open(
     'http://23669.hosts.ma-cloud.nl/TheFlashbulb/museMe/', '_blank' // <- This is what makes it open in a new window.
+    );
+    break;
+    case "slider":
+    window.open(
+    'http://23669.hosts.ma-cloud.nl/TheFlashbulb/FRO/parallax/', '_blank' // <- This is what makes it open in a new window.
     );
     break;
   }
