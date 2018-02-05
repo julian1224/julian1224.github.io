@@ -1,17 +1,14 @@
 <h2 id="headerstr"> About the parallax demo </h2>
   <p id="infotext"> A simple scrolling animation. <br><br>
-     This project is called the Wall because it is similar to a wall on social media. <br>
-     You can leave a comment with a name, description and an uploaded image.
-     The content is not moderated. I have to manually remove entries from the database. <br>
-     Still, it is functional and some efforts have been made to make uploading safer. <br>
-     However, there is no login. <br><br>
+     I decided to include this on portfolio because I am very <br>
+     pleased by how simple and yet so pleasing it is. <br>
+     I will definitely be using this again some time. <br> <br>
 
-     This site also has many references.<br>
-     Most of them are tied to search inputs. <br>
-     Be sure to try out the sorting. <br><br>
+     Honestly, the best way to explain is to look for yourself. <br> 
+     Don't mind the stock images I used. <br><br>
      <a target="_blank" href="https://github.com/julian1224/parallax/">On GitHub.</a><br><br>
      <a target="_blank" href="Include/slidersnap.png">Snapshot 1</a><br>.
   </p>
 <div class= "frame">
-<img id="infobox__img"src="Include/shot5.png" alt="SThis is a preview"></img>
+<img id="infobox__img"src="Include/shot5.png" alt="This is a preview"></img>
 </div>
