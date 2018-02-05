@@ -6,14 +6,14 @@
     <meta name="description" content="My online Web Development portfolio">
     <meta name="author" content="Julian 'Link' DiChiara">
     <meta name="keywords" content="Julian DiChiara, Link, HTML, CSS, JS, Portfolio">
-    <title> My web portfolio </title>
+    <title> Link's web portfolio </title>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Style/style.css">
   </head>
 <body onload="resetValue()">
 
   <header>
-      <h1 onclick="reference()"> My portfolio. </h1>
+      <h1 onclick="reference()"> Julian 'Link' Dichiara's portfolio. </h1>
       <h4> a collection of skills in orderly fashion. </h4>
       <hr>
     </header>
@@ -41,11 +41,12 @@
   <div class="selector">
     <p> Pick an exercise here.</p>
       <select id="selectme">
-        <option value="home" onclick="loadDoc()" default> Home </option>
-          <option value="procsim" onclick="loadDoc()"> Proc Simulator </option>
-            <option value="trumped" onclick="loadDoc()"> The Wall </option>
-              <option value="pendo" onclick="loadDoc()"> MyBand </option>
-                <option value="MUSE" onclick="loadDoc()"> MuseMe </option>
+        <option class="selectoptions" value="home" default> Home </option>
+          <option class="selectoptions" value="procsim"=> Proc Simulator </option>
+            <option class="selectoptions" value="trumped"> The Wall </option>
+              <option class="selectoptions" value="pendo"> MyBand </option>
+                <option class="selectoptions" value="MUSE"> MuseMe </option>
+                 <option class="selectoptions" value="slider"> Parallax Demo </option>
           </select>
           <p> You are on page:</p> <p id="page">home</p>
         </div>

@@ -1,3 +1,9 @@
+
+
+var click = document.getElementById("selectme");
+click.addEventListener("click", loadDoc);
+
+
 function resetValue() {
   var e = document.getElementById("selectme");
   e.selectedIndex = 0;
