@@ -116,7 +116,10 @@ padding-top: 3px;
 padding-bottom:3px;
 }
 table {
+  position: inherit;
   margin: -8px;
+  width: 100%;
+  left: 7px;;
 }
 
 tr, td, th {
@@ -164,7 +167,7 @@ a:hover {
     visibility: hidden;
   }
 }
-}
+
 @media (max-height: 855px) {
  img, .frame {
     visibility: hidden;
@@ -199,4 +202,54 @@ a:hover {
       visibility: hidden;
     }
   }
+}
+
+
+/* PHONE WIDTH STARTS */
+@media (max-width: 720px) {
+
+.selector {
+  position: absolute;
+  bottom: 146px;
+
+}
+
+#selector {
+
+  border-radius: 15px 0 0 15px;
+  margin-right: 0;
+  right: 0;
+  border-right: 0;
+  border-left-style: double;
+  height: 160px;
+}
+
+#redirect {
+  border-radius: 0 15px 15px 0;
+  height: 160px;
+
+}
+.infobox{
+ position: absolute;
+ width: auto;
+ left: 0;
+ margin-top: 45px;
+ height: calc(100% - 635px);
+ margin-bottom: 15px;
+ margin-top: 15px;
+}
+
+.frame img {
+  position: fixed;
+  visibility: visible;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 160px;
+  width: auto;
+  bottom: 165px;
+  left: calc(50% - 95px);
+  right: calc(50% - 95px);
+  border-radius: 15px;
+  border-style: double;
+}
 }
