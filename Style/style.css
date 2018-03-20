@@ -9,6 +9,7 @@ html {
   background-color: darkcyan;
   background-image: url("../Include/background.png");
   min-width: 700px;
+  border-color: black;
 }
 body, html {
   padding: 0;
@@ -31,7 +32,7 @@ border-bottom: 2px solid;
   z-index: 3;
   font-size: 21px;
   background-color: #01cdfe;
-  border: 4px double;
+  border: 2px solid;
   border-radius: 15px;
   /* height: calc(100% - 260px); */
   width: auto;
@@ -56,7 +57,7 @@ img {
   position: absolute;
   visibility: visible;
   border-radius: 0 0 10px 0;
-  border-style: double none none double;
+  border-style: solid none none solid;
   bottom: 0px;
   right: 0px;
   clear: left;
@@ -116,7 +117,7 @@ img {
   border-color: black;
   text-decoration-color: purple;
   text-align: left;
-  height: 124px;
+  height: 120px;
   width: 100%;
   bottom: 0px;
   left: 0px;
@@ -129,7 +130,6 @@ img {
   padding-top: 3px;
   padding-bottom:3px;
 }
-
 table {
   position: inherit;
   width: 100%;
@@ -142,6 +142,7 @@ tr, td, th {
   padding: 3px;
   border-style: solid;
   border-color: black;
+  border-width: 2px;
 }
 a:link {
   color: magenta;
