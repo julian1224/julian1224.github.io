@@ -116,7 +116,7 @@ img {
   border-color: black;
   text-decoration-color: purple;
   text-align: left;
-  height: 122px;
+  height: 124px;
   width: 100%;
   bottom: 0px;
   left: 0px;
@@ -132,9 +132,10 @@ img {
 
 table {
   position: inherit;
-  margin: -8px;
   width: 100%;
-  left: 7px;;
+  bottom: 0px;
+  left: 0px;
+  height: auto;
 }
 
 tr, td, th {
@@ -162,109 +163,4 @@ a:hover {
    1px -1px 0 #000,
    -1px 1px 0 #000,
    1px 1px 0 #000;
-}
-
-
-@media (max-height: 855px) {
- img {
-    visibility: hidden;
-  }
-  .infobox {
-
-    overflow: hidden;
-    font-size: 17px;
-  }
-  #redirect {
-    height: 103px;
-  }
-  header {
-    height: 120px;
-    margin-bottom: 18px;
-    border-color: black;
-  }
-  @media (max-height: 700px) {
-    .infobox {
-      padding-bottom: 0px;
-    }
-  }
-  @media (max-height: 605px) {
-    header {
-      visibility: hidden;
-      padding-top: 0px;
-      height: 1px;
-    }
-    footer {
-      visibility: hidden;
-    }
-    .frame {
-      visibility: hidden;
-      margin-top: 0;
-      height: 0;
-    }
-    img {
-      height: 0;
-    }
-    html {
-      min-height: 430px;
-    }
-  }
-  @media (max-height: 485px) {
-
-  }
-}
-
-
-/* PHONE WIDTH STARTS */
-@media (max-width: 720px) {
-
-.all_container{
-}
-
-header h1, header h4 {
-  width: 80%;
-}
-
-.selector {
-  position: absolute;
-  bottom: 146px;
-  width: 33%;
-
-  }
-
-#selector {
-
-  border-radius: 15px 0 0 15px;
-  margin-right: 0;
-  right: 0;
-  border-right: 0;
-  border-left-style: double;
-  height: 160px;
-  }
-
-#redirect {
-  border-radius: 0 15px 15px 0;
-  height: 160px;
-
-  }
-.infobox{
-  width: 90%;
- height: calc(100% - 635px);
- margin-bottom: 15px;
- margin-top: 15px;
- font-size: 18px;
-
-  }
-
-.frame img {
-  position: fixed;
-  visibility: visible;
-  margin-left: 15px;
-  margin-right: 15px;
-  height: 160px;
-  width: auto;
-  bottom: 165px;
-  left: calc(50% - 98px);
-  border-radius: 15px;
-  border-style: double;
-  }
 }
