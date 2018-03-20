@@ -31,7 +31,7 @@ function loadDoc() {
     break;
     case "procsim":
     document.getElementById('page').innerHTML = "Proc Sim";
-    document.getElementById('redirect__button').innerHTML = "Let's see the proc sim";
+    document.getElementById('redirect__button').innerHTML = "Let's see the sim";
     xhttp.open("GET", "Include/txt_source_procsim.txt", true);
     xhttp.send();
     break;

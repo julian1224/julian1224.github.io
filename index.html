@@ -7,17 +7,39 @@
     <meta name="author" content="Julian 'Link' DiChiara">
     <meta name="keywords" content="Julian DiChiara, Link, HTML, CSS, JS, Portfolio">
     <title> Link's web portfolio </title>
-    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="Style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/material-components-web/dist/material-components-web.css">
   </head>
 <body onload="resetValue()">
 
   <header>
       <h1 onclick="reference()"> Julian 'Link' Dichiara's portfolio. </h1>
       <h4> a collection of skills in orderly fashion. </h4>
-      <hr>
-    </header>
+      <!-- <hr> -->
+  </header>
 
+  <div class="all_container">
+
+    <div class="navi__container">
+      <div class="selector" id="selector">
+        <p> Pick an exercise here.</p>
+          <select id="selectme">
+            <option class="selectoptions" value="home" default> Home </option>
+            <option class="selectoptions" value="procsim"=> Proc Simulator </option>
+            <option class="selectoptions" value="trumped"> The Wall </option>
+            <option class="selectoptions" value="pendo"> MyBand </option>
+            <option class="selectoptions" value="MUSE"> MuseMe </option>
+            <option class="selectoptions" value="slider"> Parallax Demo </option>
+          </select>
+          <p> You are on page:</p> <p id="page">home</p>
+      </div>
+
+            <div class="selector" id="redirect">
+              <p> I am interested, let's see more. </p>
+              <button id="redirect__button" class="mdc-button mdc-button--stroked thick-stroke-button mdc-ripple-upgraded"> See the project </button>
+            </div>
+    </div>
 
     <div class="infobox" id="info">
       <h2 id="headerstr"> About me: </h2>
@@ -33,29 +55,14 @@
             <a target="_blank" href="https://github.com/julian1224">On GitHub.</a>
         </p>
       <div class= "frame">
-      <textarea id="lmaobox" chars="0"></textarea>
-      <img id="infobox__img"src="Include/headshot1.png" alt="This is a preview"></img>
-    </div>
+        <img id="infobox__img"src="Include/headshot1.png" alt="This is a preview"></img>
+      </div>
     </div>
   </div>
-  <div class="selector" id="selector">
-    <p> Pick an exercise here.</p>
-      <select id="selectme">
-        <option class="selectoptions" value="home" default> Home </option>
-          <option class="selectoptions" value="procsim"=> Proc Simulator </option>
-            <option class="selectoptions" value="trumped"> The Wall </option>
-              <option class="selectoptions" value="pendo"> MyBand </option>
-                <option class="selectoptions" value="MUSE"> MuseMe </option>
-                 <option class="selectoptions" value="slider"> Parallax Demo </option>
-          </select>
-          <p> You are on page:</p> <p id="page">home</p>
-        </div>
-
-        <div class="selector" id="redirect">
-          <p> I am interested, let's see more. </p>
-          <button id="redirect__button"> See the project </button>
-        </div>
-    <footer>
+         <script src="JScript/onclick.js"></script>
+  </body>
+  <div class="footer__space">
+    
           <table>
            <tr>
              <th>Mail</th>
@@ -78,8 +85,6 @@
              <td><a href="CV.html">Curriculum Vitae</a></td>
            </tr>
          </table>
-       </footer>
-         <script src="JScript/onclick.js"></script>
-  </body>
 
+       </div>
 </html>
