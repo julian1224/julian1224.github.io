@@ -71,6 +71,7 @@ function loadDoc() {
 
 function reference(){
   document.title = "Mr. Happy";
+  document.getElementById("myname").innerHTML="Julian '404' Dichiara's portfolio."
 }
 
 function reDirect(){
