@@ -5,6 +5,9 @@ e.addEventListener("click", loadDoc);
 var button = document.getElementById("redirect__button");
 button.addEventListener("click", reDirect);
 
+var red = document.getElementById("FOURTYEIGHTHOURSREMAIN");
+red.addEventListener("click", backInBlack);
+
 function resetValue() {
   var e = document.getElementById("selectme");
   e.selectedIndex = 0;
@@ -72,6 +75,10 @@ function loadDoc() {
 function reference(){
   document.title = "Mr. Happy";
   document.getElementById("myname").innerHTML="Julian '404' Dichiara's portfolio."
+}
+
+function backInBlack(){
+  location.href = "index.html";
 }
 
 function reDirect(){

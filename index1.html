@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My online Web Development portfolio">
+    <meta name="author" content="Julian 'Link' DiChiara">
+    <meta name="keywords" content="Julian DiChiara, Link, HTML, CSS, JS, Portfolio">
+    <title> Link's web portfolio </title>
+    <link rel="stylesheet" type="text/css" href="Style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/material-components-web/dist/material-components-web.css">
+  </head>
+<body onload="resetValue()">
+
+  <header>
+      <h1 onclick="reference()" id="myname"> Julian 'Link' Dichiara's portfolio. </h1>
+      <h4> a collection of skills in orderly fashion. </h4>
+  </header>
+
+  <div class="all_container">
+
+    <div class="navi__container">
+      <div class="selector" id="selector">
+        <p> Pick an exercise here.</p>
+          <select id="selectme">
+            <option class="selectoptions" value="home" default> Home </option>
+            <option class="selectoptions" value="procsim"=> Proc Simulator </option>
+            <option class="selectoptions" value="trumped"> The Wall </option>
+            <option class="selectoptions" value="pendo"> MyBand </option>
+            <option class="selectoptions" value="MUSE"> MuseMe </option>
+            <option class="selectoptions" value="slider"> Parallax Demo </option>
+          </select>
+          <p> You are on page:</p> <p id="page">home</p>
+      </div>
+      <div class="selector" id="FOURTYEIGHTHOURSREMAIN">
+        <p> Switch true/sleek style </p>
+        <button id="backtothefuture" class="mdc-button mdc-button--stroked thick-stroke-button mdc-ripple-upgraded"> :D </button>
+      </div>
+            <div class="selector" id="redirect">
+              <p> I am interested, let's see more. </p>
+              <button id="redirect__button" class="mdc-button mdc-button--stroked thick-stroke-button mdc-ripple-upgraded"> See the project </button>
+            </div>
+    </div>
+
+    <div class="infobox" id="info">
+      <div class="alltext">
+          <h2 id="headerstr"> About me: </h2>
+          <img id="infobox__img" src="Include/headshot1.png" alt="This is a preview"></img>
+          <p id="infotext">
+                <span>This is me. I am Link.</span> <br><br>
+                I aspire to work hard writing code in PHP or JS.
+                As a creative person, I spend a lot of time listening to music and drawing art. <br><br>
+
+                I like to code in Javascript because it doesn't require an internet connection.
+                The stuff I make are more applications than anything else because of this.
+                It doesn't mean, however, that I can't write PHP. <br><br>
+                I am a big fan of colours and references.
+                You will find plenty of both in my work. <br><br>
+                <a target="_blank" href="https://github.com/julian1224">On GitHub.</a>
+          </p>
+      </div>
+          <!-- <div class= "frame"> -->
+        <!-- </div> -->
+    </div>
+  </div>
+         <script src="JScript/onclick.js"></script>
+  </body>
+
+  <div class="footer__space"><div class="filler__space"></div>
+          <table>
+           <tr>
+             <th>Mail</th>
+             <th>Phone</th>
+             <th>Media</th>
+           </tr>
+           <tr>
+             <td>7iscool77@gmail.com</td>
+             <td>+31 6 81470921 </td>
+             <td><a target="_blank" href="https://github.com/julian1224">GitHub</a> </td>
+           </tr>
+           <tr>
+             <td>23669@ma-web.nl</td>
+             <td> </td>
+             <td><a target="_blank" href="https://www.deviantart.com">DeviantArt</a></td>
+           </tr>
+           <tr>
+             <td> </td>
+             <td> </td>
+             <td><a href="CV.html">Curriculum Vitae</a></td>
+           </tr>
+         </table>
+
+       </div>
+</html>
