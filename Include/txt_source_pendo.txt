@@ -1,6 +1,7 @@
+  <div class="alltext">
       <h2 id="headerstr"> About myBand </h2>
-        <p id="infotext">  <br><br>
-           This project is called the Wall because it is similar to a wall on social media. <br>
+      <p>Used methods: <i> HTML, JS, PHP</i></p>
+        <p id="infotext">
 	   I had to make a page about one of my favourite music groups, therefore I chose Pendulum. <br>
    	   Using a database, you can leave comments and read the articles that are stored. <br>
 
@@ -12,6 +13,7 @@
      <a target="_blank" href="Include/bandsnap.png">Snapshot 1</a><br>
      <a target="_blank" href="Include/bandsnap2.png">Snapshot 2</a><br>
         </p>
+        </div>
       <div class= "frame">
       <img id="infobox__img"src="Include/shot3.png" alt="This is a preview"></img>
     </div>

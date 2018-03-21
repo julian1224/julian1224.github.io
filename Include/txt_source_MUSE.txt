@@ -1,5 +1,7 @@
-<h2 id="headerstr"> About MuseMe </h2>
-  <p id="infotext"> This is a school project. <br>
+<div class="alltext">
+  <h2 id="headerstr"> About MuseMe </h2>
+    <p>Used methods: <i> HTML, JS</i></p>
+    <p id="infotext"> This is a school project. <br>
      This webapp is meant to be a music list, <br>
      sorting music in a massive table that can be sorted. <br><br>
      The 'innovation' in this project is that the table contains stuff like <br>
@@ -11,6 +13,7 @@
    <a target="_blank" href="https://github.com/julian1224/MuseMe">On GitHub.</a> <br><br>
    <a target="_blank" href="Include/musesnap.png">Snapshot</a><br>
   </p>
+  </div>
 <div class= "frame">
 <img id="infobox__img"src="Include/shot4.png" alt="This is a preview"></img>
 </div>

@@ -24,8 +24,11 @@ padding-top: 15px;
 margin-bottom: 15px;
 height: 120px;
 width: auto;
-border-color: tomato;
 border-bottom: 2px solid;
+}
+.alltext {
+  display: block;
+  z-index: 30;
 }
 
 .infobox {
@@ -38,8 +41,8 @@ border-bottom: 2px solid;
   left: calc(50% - 400px);
   margin: 15px;
   margin-top: 0px;
-  overflow: hidden;
   display: flex;
+
 }
 .infobox p {
   text-align: left;
@@ -48,15 +51,17 @@ border-bottom: 2px solid;
 }
 .frame {
   position: relative;
+  height: 100%;
+  display: inline-flex;
+  flex-direction: row;
 }
 img {
   height: 100%;
   width: auto;
   position: absolute;
-  visibility: visible;
-  border-radius: 0 0 10px 0;
+  border-radius: 0 10px 10px 0;
   border-style: solid none none solid;
-  opacity: 0.4;
+  opacity: 0.3;
   bottom: 0px;
   right: 0px;
   background-color: white;
@@ -144,13 +149,18 @@ tr, td, th {
   border-width: 2px;
 }
 a:link {
-  color: magenta;
+  color: yellow;
+  text-shadow:
+   -1px -1px 0 #000,
+   1px -1px 0 #000,
+   -1px 1px 0 #000,
+   1px 1px 0 #000;
 }
 a:visited {
   color: black;
 }
 a:hover {
-  color: purple;
+  color: goldenrod;
   background-color: grey;
 }
 

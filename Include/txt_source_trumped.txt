@@ -1,4 +1,6 @@
+  <div class="alltext">
       <h2 id="headerstr"> About the Wall </h2>
+      <p>Used methods: <i> HTML, CSS, JS, PHP</i></p>
         <p id="infotext"> I built this wall. <br><br>
            This project is called the Wall because it is similar to a wall on social media. <br>
 	   You can leave a comment with a name, description and an uploaded image. <br>
@@ -13,6 +15,7 @@
      <a target="_blank" href="Include/wallsnap.png">Snapshot 1</a><br>
      <a target="_blank" href="Include/wallsnap2.png">Snapshot 2</a><br>
         </p>
+        </div>
       <div class= "frame">
       <img id="infobox__img"src="Include/shot2.png" alt="SThis is a preview"></img>
     </div>

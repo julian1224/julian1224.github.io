@@ -1,5 +1,6 @@
+  <div class="alltext">
       <h2 id="headerstr"> About me: </h2>
-        <p id="infotext"> This is me. I am Link. <br>
+        <p id="infotext"> This is me. I am Link. <br><br>
             I aspire to work hard writing code in PHP or JS. <br>
             As a creative person, I spend a lot of time listening to music and drawing art. <br><br>
 
@@ -9,7 +10,8 @@
             I am a big fan of colours and references. <br>
             You will find plenty of both in my work. <br><br>
             <a target="_blank" href="https://github.com/julian1224">On GitHub.</a>
-        </p>
+            </p>
+        </div>
       <div class= "frame">
       <img id="infobox__img"src="Include/headshot1.png" alt="This is a preview"></img>
     </div>
