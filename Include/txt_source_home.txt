@@ -2,13 +2,13 @@
     <h2 id="headerstr"> About me: </h2>
     <img id="infobox__img" src="Include/headshot1.png" alt="This is a preview"></img>
     <p id="infotext">This is me. I am Link. <br><br>
-          I aspire to work hard writing code in PHP or JS. <br>
+          I aspire to work hard writing code in PHP or JS. 
           As a creative person, I spend a lot of time listening to music and drawing art. <br><br>
 
-          I like to code in Javascript because it doesn't require an internet connection. <br>
-          The stuff I make are more applications than anything else because of this. <br>
+          I like to code in Javascript because it doesn't require an internet connection.
+          The stuff I make are more applications than anything else because of this.
           It doesn't mean, however, that I can't write PHP. <br><br>
-          I am a big fan of colours and references. <br>
+          I am a big fan of colours and references.
           You will find plenty of both in my work. <br><br>
           <a target="_blank" href="https://github.com/julian1224">On GitHub.</a>
     </p>

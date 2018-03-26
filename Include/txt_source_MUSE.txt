@@ -1,17 +1,17 @@
 <div class="alltext">
   <h2 id="headerstr"> About MuseMe </h2>
     <p>Used methods: <i> HTML, JS</i></p>
-    <p id="infotext"> This is a school project. <br>
-     This webapp is meant to be a music list, <br>
+    <p id="infotext"> This is a school project. 
+     This webapp is meant to be a music list,
      sorting music in a massive table that can be sorted. <br><br>
-     The 'innovation' in this project is that the table contains stuff like <br>
-     title, artist(s), album, year of release and mood. <br>
-     Mood? Yes, mood. MuseMe helps you find music you <i>feel</i> like listening to.<br>
-     The main reason I am making this is because it is something I would use. <br>
+     The 'innovation' in this project is that the table contains stuff like
+     title, artist(s), album, year of release and mood.
+     Mood? Yes, mood. MuseMe helps you find music you <i>feel</i> like listening to.
+     The main reason I am making this is because it is something I would use.
      WIP.
    <br><br>
    <a target="_blank" href="https://github.com/julian1224/MuseMe">On GitHub.</a> <br><br>
-   <a target="_blank" href="Include/musesnap.png">Snapshot</a><br>
+   <a target="_blank" href="Include/musesnap.png">Snapshot</a>
   </p>
   </div>
 <div class= "frame">

@@ -1,3 +1,44 @@
 html {
   background-color: #837E7C;
 }
+
+.card {
+  height: 400px;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;}
+
+  .flexcontainerino {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .my-card__media1 {
+    background-image: url("../Include/shot1.png");
+  }
+  .my-card__media2 {
+    background-image: url("../Include/shot2.png");
+  }
+  .my-card__media3 {
+    background-image: url("../Include/shot3.png");
+  }
+  .my-card__media4 {
+    background-image: url("../Include/shot4.png");
+  }
+  .my-card__media5 {
+    background-image: url("../Include/shot5.png");
+  }
+  .floating__text {
+    z-index: 10;
+    position: absolute;
+    overflow: visible;
+  }
+  img {
+    width: 100%;
+     z-index: 0;
+  }
+  .mdc-button {
+    margin-top: 20px;
+  }
