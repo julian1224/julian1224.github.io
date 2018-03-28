@@ -2,6 +2,7 @@ html {
   background-color: slategray;
   font-family: 'Comfortaa', cursive;
   color: white;
+  padding: 10px;
 }
 hr {
   height: 20px;
@@ -56,13 +57,16 @@ hr {
   }
   .floating__text {
     font-size: 35px;
+    height: 40px;
+    width: 452px;
     position: absolute;
     overflow: visible;
     right: -20px;
     z-index: 10;
     margin: 0;
     margin-top: 150px;
-      text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    overflow-wrap: normal;
   }
   img {
     width: 100%;
@@ -76,6 +80,7 @@ hr {
     background-image: url(../Include/paraimage.png);
     background-position: center top;
     background-size: 100% 170%;
+    border: 1px inset darkcyan;
   }
 
   .maintext {
@@ -87,3 +92,10 @@ hr {
     background-color: rgba(169,169,169, 0.7);
     padding: 10px;
   }
+  .footer {
+    display: flex;
+    flex-direction: row;
+  }
+  .mail {}
+
+  .phone {}
