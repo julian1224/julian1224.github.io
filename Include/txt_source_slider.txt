@@ -1,6 +1,6 @@
   <div class="alltext">
 <h2 id="headerstr"> About the parallax demo </h2>
- <p>Used methods: <i> HTML, CSS, JS</i></p>
+ <h5>Used methods: <i> HTML, CSS, JS</i></h5>
   <p id="infotext"> A simple scrolling animation. <br><br>
      I decided to include this on portfolio because I am very <br>
      pleased by how simple and yet so pleasing it is. <br>

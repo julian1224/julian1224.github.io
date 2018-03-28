@@ -1,0 +1,14 @@
+<div class="alltext">
+    <h2 id="headerstr"> About my old portfolio</h2>
+    <h5>Used methods: <i> HTML, CSS, JS </i></h5>
+      <p id="infotext">
+      I have quite a distinct style. <br>
+      Apparently that's not professional enough, and I agree <br>
+
+      I honestly liked my old portfolio because it really resembled myself. <br>
+      but my new portfolio is better for its intended portfolio. <br>
+      You have no idea how much time I lost having to make a new one. <br><br>
+      But still, here it is. <br><br>
+
+      </p>
+      </div>

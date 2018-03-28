@@ -1,7 +1,7 @@
 <div class="alltext">
   <h2 id="headerstr"> About MuseMe </h2>
-    <p>Used methods: <i> HTML, JS</i></p>
-    <p id="infotext"> This is a school project. 
+    <h5>Used methods: <i> HTML, CSS, JS</i></h5>
+    <p id="infotext"> This is a school project.
      This webapp is meant to be a music list,
      sorting music in a massive table that can be sorted. <br><br>
      The 'innovation' in this project is that the table contains stuff like

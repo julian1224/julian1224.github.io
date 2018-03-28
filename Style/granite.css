@@ -25,15 +25,19 @@ img {
 }
 
 .newInfobox {
-  top: 20%;
+  top: 10%;
   left: 10%;
   width: 80%;
-  height: 60%;
+  height: 80%;
   position: fixed;
   background-color: slategray;
   z-index: 100;
-  padding: 20px;
+  padding: 10px;
   border: 1px inset darkcyan;
+}
+.alltext {
+  background-color: rgba(169, 169, 169, 0.7);
+  padding: 10px;
 }
 .clickaway {
   top: 0px;

@@ -1,6 +1,6 @@
   <div class="alltext">
       <h2 id="headerstr"> About Proc Simulator: </h2>
-        <h5>Used methods: <i> HTML, JS</i></h5>
+        <h5>Used methods: <i> HTML, CSS, JS</i></h5>
         <p id="infotext"> I started this project for myself. <br>
            This application sets two sets of items with their own properties against each other, <br>
       	   calculating the odds and returning which ones did and did not proc. <br><br>

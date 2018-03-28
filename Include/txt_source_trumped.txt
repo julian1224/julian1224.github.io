@@ -1,6 +1,6 @@
   <div class="alltext">
       <h2 id="headerstr"> About the Wall </h2>
-      <p>Used methods: <i> HTML, CSS, JS, PHP</i></p>
+      <h5>Used methods: <i> HTML, CSS, JS, PHP</i></h5>
         <p id="infotext"> I built this wall. <br><br>
            This project is called the Wall because it is similar to a wall on social media. <br>
 	   You can leave a comment with a name, description and an uploaded image. <br>

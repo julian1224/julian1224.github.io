@@ -1,6 +1,6 @@
   <div class="alltext">
       <h2 id="headerstr"> About myBand </h2>
-      <p>Used methods: <i> HTML, JS, PHP</i></p>
+      <h5>Used methods: <i> HTML, CSS, JS, PHP</i></h5>
         <p id="infotext">
 	   I had to make a page about one of my favourite music groups, therefore I chose Pendulum. <br>
    	   Using a database, you can leave comments and read the articles that are stored. <br>
