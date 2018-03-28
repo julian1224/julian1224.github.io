@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/material-components-web/dist/material-components-web.css">
     <title> BLANK SPACE </title>
-    <script src="JScript/proScript.js"></script>
+
   </head>
   <body>
   <div class="head">
@@ -28,6 +28,7 @@
 
   </div>
   <div class="filler__left"> </div> <div class="filler__right"> </div>
+  <div id="prompt" class="newInfobox"><p>This is to be replaced, you shouldn't be seeing this.</p></div>
   <hr>
   <div class="maintext">
     <h2> About me: </h2>
@@ -36,7 +37,7 @@
 
       I aspire to work hard writing code in PHP or JS. As a creative person, I spend a lot of time listening to music and drawing art. <br>
 
-      I like to code in Javascript because it doesn't require an internet connection. The stuff I make are more applications than anything else because of this. <br>
+      I like to code in Javascript because it doesn't require an internet connection. <br> Because of this, the things I create are more applications than anything else. <br>
       But that doesn't mean I can't write PHP. <br> <br>
 
       I am a big fan of colours and references. You will find plenty of both in my work.
@@ -49,7 +50,7 @@
     <h2> A few projects I've made: </h2>
 <div class="flexcontainerino">
     <div class="mdc-card card card1">
-            <a class="mdc-card__primary-action mdc-ripple-upgraded" href="#" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
+            <a class="mdc-card__primary-action mdc-ripple-upgraded" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
               <div class="mdc-card__media mdc-card__media--16-9 my-card__media1"></div>
               <div class="mdc-card__primary">
                 <h2 class="mdc-card__title mdc-typography--title">DotA PROC simulator</h2>
@@ -61,13 +62,13 @@
             </a>
             <div class="mdc-card__actions">
               <div class="mdc-card__action-buttons">
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
+                <button id="read0" class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
+                <button id="view0" class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
               </div>
             </div>
     </div>
     <div class="mdc-card card card2">
-            <a class="mdc-card__primary-action mdc-ripple-upgraded" href="#" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
+            <a class="mdc-card__primary-action mdc-ripple-upgraded" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
               <div class="mdc-card__media mdc-card__media--16-9 my-card__media2"></div>
               <div class="mdc-card__primary">
                 <h2 class="mdc-card__title mdc-typography--title">The Wall</h2>
@@ -79,14 +80,14 @@
             </a>
             <div class="mdc-card__actions">
               <div class="mdc-card__action-buttons">
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
+                <button id="read1" class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
+                <button id="view1" class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
               </div>
             </div>
     </div>
 
     <div class="mdc-card card card3">
-            <a class="mdc-card__primary-action mdc-ripple-upgraded" href="#" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
+            <a class="mdc-card__primary-action mdc-ripple-upgraded" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
               <div class="mdc-card__media mdc-card__media--16-9 my-card__media3"></div>
               <div class="mdc-card__primary">
                 <h2 class="mdc-card__title mdc-typography--title">MyBand</h2>
@@ -98,13 +99,13 @@
             </a>
             <div class="mdc-card__actions">
               <div class="mdc-card__action-buttons">
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
+                <button id="read2" class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
+                <button id="view2" class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
               </div>
             </div>
     </div>
     <div class="mdc-card card card4">
-            <a class="mdc-card__primary-action mdc-ripple-upgraded" href="#" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
+            <a class="mdc-card__primary-action mdc-ripple-upgraded" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
               <div class="mdc-card__media mdc-card__media--16-9 my-card__media4"></div>
               <div class="mdc-card__primary">
                 <h2 class="mdc-card__title mdc-typography--title">MuseMe</h2>
@@ -116,13 +117,13 @@
             </a>
             <div class="mdc-card__actions">
               <div class="mdc-card__action-buttons">
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
+                <button id="read3"class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
+                <button id="view3" class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
               </div>
             </div>
     </div>
     <div class="mdc-card card card5">
-            <a class="mdc-card__primary-action mdc-ripple-upgraded" href="#" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
+            <a class="mdc-card__primary-action mdc-ripple-upgraded" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
               <div class="mdc-card__media mdc-card__media--16-9 my-card__media5"></div>
               <div class="mdc-card__primary">
                 <h2 class="mdc-card__title mdc-typography--title">Parallax demo</h2>
@@ -134,14 +135,14 @@
             </a>
             <div class="mdc-card__actions">
               <div class="mdc-card__action-buttons">
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
+                <button id="read4" class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
+                <button id="view4" class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
               </div>
             </div>
     </div>
 
     <div class="mdc-card card card6">
-            <a class="mdc-card__primary-action mdc-ripple-upgraded" href="#" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
+            <a class="mdc-card__primary-action mdc-ripple-upgraded" style="--mdc-ripple-fg-size:210px; --mdc-ripple-fg-scale:2.34767435175655; --mdc-ripple-fg-translate-start:155.5px, 89px; --mdc-ripple-fg-translate-end:70px, 61.43333435058594px;">
               <div class="mdc-card__media mdc-card__media--16-9 my-card__media6"></div>
               <div class="mdc-card__primary">
                 <h2 class="mdc-card__title mdc-typography--title">My old portfolio</h2>
@@ -153,14 +154,15 @@
             </a>
             <div class="mdc-card__actions">
               <div class="mdc-card__action-buttons">
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
-                <button class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
+                <button id="read5" class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:38.4px; --mdc-ripple-fg-scale:2.172662474029773;">Read</button>
+                <button id="view5" class="mdc-button mdc-card__action mdc-card__action--button mdc-ripple-upgraded" style="--mdc-ripple-fg-size:58.08000183105469px; --mdc-ripple-fg-scale:1.9503699995903887;">View</button>
               </div>
             </div>
     </div>
   </div>
 
   </div>
+  <script src="JScript/proScript.js"></script>
   </body>
   <hr>
   <!-- FOOTER -->
