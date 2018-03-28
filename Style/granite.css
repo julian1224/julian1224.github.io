@@ -28,16 +28,7 @@ img {
   background-color: darkcyan;
   padding: 20px;
   border: 1px inset darkcyan;
-}
-
-.link {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  background-color: yellow;
-  margin: 10px;
-  padding: 5px;
-  border: 2px solid black;
+  text-align: center;
 }
 
 .card {
@@ -81,11 +72,10 @@ img {
   height: 40px;
   width: 452px;
   position: absolute;
-  overflow: visible;
   right: -20px;
   z-index: 10;
   margin: 0;
-  margin-top: 150px;
+  margin-top: 25%;
   text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   overflow-wrap: normal;
 }
@@ -112,6 +102,11 @@ img {
 }
 
 .footer {
+  background-color: rgba(169, 169, 169, 0.7);
+  padding: 10px;
+}
+
+.footerFlex {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -124,6 +119,7 @@ img {
   height: 100%;
   background-color: slategray;
   top: 0px;
+
 }
 
 .filler__right {
