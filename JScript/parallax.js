@@ -8,7 +8,7 @@ function paraFunk(){
 
 var yOffset = window.pageYOffset;
 // document.getElementById("tellme").innerHTML = yOffset + "px";
-backgroundImage.style.backgroundPositionY = "-" + yOffset/3 + "px";
+backgroundImage.style.backgroundPositionY = "-" + yOffset/4 + "px";
 
   scrollText.style.right =  yOffset * 2 - 200 + "px";
 

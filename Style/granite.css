@@ -4,17 +4,32 @@ html {
   color: white;
   padding: 10px;
 }
+
 hr {
   height: 20px;
   width: 100%;
   color: darkcyan;
-  background-color: darkcyan;}
+  background-color: darkcyan;
+}
+
+img {
+  width: 100%;
+  z-index: 0;
+  visibility: hidden;
+}
+
+#hiddenref {
+  text-decoration: none;
+  color: white;
+  cursor: default;
+}
 .head {
   height: 120px;
   background-color: darkcyan;
   padding: 20px;
   border: 1px inset darkcyan;
 }
+
 .link {
   position: absolute;
   top: 0px;
@@ -24,78 +39,103 @@ hr {
   padding: 5px;
   border: 2px solid black;
 }
+
 .card {
   height: 400px;
   width: 300px;
   padding: 10px;
   margin: 10px;
-  color: black;}
+  color: black;
+}
 
-  .flexcontainerino {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    height: auto;
-    justify-content: center;
+.flexcontainerino {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+}
 
-  }
+.my-card__media1 {
+  background-image: url("../Include/shot1.png");
+}
 
-  .my-card__media1 {
-    background-image: url("../Include/shot1.png");
-  }
-  .my-card__media2 {
-    background-image: url("../Include/shot2.png");
-  }
-  .my-card__media3 {
-    background-image: url("../Include/shot3.png");
-  }
-  .my-card__media4 {
-    background-image: url("../Include/shot4.png");
-  }
-  .my-card__media5 {
-    background-image: url("../Include/shot5.png");
-  }
-  .floating__text {
-    font-size: 35px;
-    height: 40px;
-    width: 452px;
-    position: absolute;
-    overflow: visible;
-    right: -20px;
-    z-index: 10;
-    margin: 0;
-    margin-top: 150px;
-    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-    overflow-wrap: normal;
-  }
-  img {
-    width: 100%;
-     z-index: 0;
-     visibility: hidden;
-  }
-  .mdc-button {
-    margin-top: 20px;
-  }
-  .largeimage__parallax {
-    background-image: url(../Include/paraimage.png);
-    background-position: center top;
-    background-size: 100% 170%;
-    border: 1px inset darkcyan;
-  }
+.my-card__media2 {
+  background-image: url("../Include/shot2.png");
+}
 
-  .maintext {
-    background-color: rgba(169,169,169, 0.7);
-    padding: 10px;
-  }
+.my-card__media3 {
+  background-image: url("../Include/shot3.png");
+}
 
-  .projects {
-    background-color: rgba(169,169,169, 0.7);
-    padding: 10px;
-  }
-  .footer {
-    display: flex;
-    flex-direction: row;
-  }
-  .mail {}
+.my-card__media4 {
+  background-image: url("../Include/shot4.png");
+}
 
-  .phone {}
+.my-card__media5 {
+  background-image: url("../Include/shot5.png");
+}
+
+.floating__text {
+  font-size: 35px;
+  height: 40px;
+  width: 452px;
+  position: absolute;
+  overflow: visible;
+  right: -20px;
+  z-index: 10;
+  margin: 0;
+  margin-top: 150px;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  overflow-wrap: normal;
+}
+
+.mdc-button {
+  margin-top: 20px;
+}
+
+.largeimage__parallax {
+  background-image: url(../Include/paraimage.png);
+  background-position: center top;
+  background-size: 100% 170%;
+  border: 1px inset darkcyan;
+}
+
+.maintext {
+  background-color: rgba(169, 169, 169, 0.7);
+  padding: 10px;
+}
+
+.projects {
+  background-color: rgba(169, 169, 169, 0.7);
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.filler__right, .filler__left {
+  width: 20px;
+  position: fixed;
+  z-index: 30;
+  height: 100%;
+  background-color: slategray;
+  top: 0px;
+}
+
+.filler__right {
+  right: -3px;
+}
+
+.filler__left {
+  left: -3px;
+}
+
+.mail {}
+
+.phone {}
+
+.media {}
